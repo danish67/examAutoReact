@@ -1,116 +1,142 @@
 export const menu = [
   {
     id: 1,
-    title: "main",
+    title: "Student",
     listItems: [
       {
         id: 1,
-        title: "Homepage",
+        title: "Add Student",
         url: "/",
         icon: "home.svg",
       },
       {
         id: 2,
-        title: "Profile",
+        title: "Student Details",
         url: "/users/1",
         icon: "user.svg",
       },
-    ],
+    ],  
   },
   {
     id: 2,
-    title: "lists",
+    title: "Section",
     listItems: [
       {
         id: 1,
-        title: "Users",
-        url: "/users",
-        icon: "user.svg",
-      },
-      {
-        id: 2,
-        title: "Products",
-        url: "/products",
-        icon: "product.svg",
-      },
-      {
-        id: 3,
-        title: "Orders",
-        url: "/orders",
-        icon: "order.svg",
-      },
-      {
-        id: 4,
-        title: "Posts",
-        url: "/posts",
-        icon: "post2.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "general",
-    listItems: [
-      {
-        id: 1,
-        title: "Elements",
-        url: "/",
-        icon: "element.svg",
-      },
-      {
-        id: 2,
-        title: "Notes",
-        url: "/",
-        icon: "note.svg",
-      },
-      {
-        id: 3,
-        title: "Forms",
-        url: "/",
-        icon: "form.svg",
-      },
-      {
-        id: 4,
-        title: "Calendar",
-        url: "/",
-        icon: "calendar.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Maintenance",
-    listItems: [
-      {
-        id: 1,
-        title: "Settings",
+        title: "Add Section",
         url: "/",
         icon: "setting.svg",
       },
       {
         id: 2,
-        title: "Backups",
-        url: "/",
-        icon: "backup.svg",
+        title: "Section Details",
+        url: "/users/1",
+        icon: "user.svg",
       },
+
     ],
   },
   {
-    id: 5,
-    title: "analytics",
+    id: 3,
+    title: "Batches",
     listItems: [
       {
         id: 1,
-        title: "Charts",
+        title: "Add Batch",
+        url: "/",
+        icon: "element.svg",
+      },
+      {
+        id: 2,
+        title: "Batch Details",
+        url: "/users/1",
+        icon: "user.svg",
+      },
+      // {
+        //   id: 2,
+        //   title: "Notes",
+      //   url: "/",
+      //   icon: "note.svg",
+      // },
+      // {
+      //   id: 3,
+      //   title: "Forms",
+      //   url: "/",
+      //   icon: "form.svg",
+      // },
+      // {
+        //   id: 4,
+        //   title: "Calendar",
+        //   url: "/",
+        //   icon: "calendar.svg",
+        // },
+      ],
+    },
+    {
+      id: 4,
+      title: "Department",
+      listItems: [
+        {
+          id: 1,
+          title: "Add Department",
+          url: "/users",
+          icon: "user.svg",
+        },
+        {
+          id: 2,
+          title: "Department Details",
+          url: "/users/1",
+          icon: "user.svg",
+        },
+      ],
+    },
+  {
+    id: 5,
+    title: "Exam",
+    listItems: [
+      {
+        id: 1,
+        title: "Add Exam",
         url: "/",
         icon: "chart.svg",
       },
       {
         id: 2,
-        title: "Logs",
+        title: "Exam Details",
         url: "/",
         icon: "log.svg",
       },
+    ],
+  },
+  {
+    id: 6,
+    title: "Subjects",
+    listItems: [
+      {
+        id: 1,
+        title: "Add Subject",
+        url: "/",
+        icon: "chart.svg",
+      },
+      {
+        id: 2,
+        title: "Subject Details",
+        url: "/",
+        icon: "log.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Marks",
+    listItems: [
+      {
+        id: 1,
+        title: "Assign Marks",
+        url: "/",
+        icon: "chart.svg",
+      },
+
     ],
   },
 ];
